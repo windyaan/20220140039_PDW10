@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>Pendaftaran</title> 
+</head> 
+<body> 
+    <div class="container"> 
+        <div class="header"> 
+            <h3>Pendaftaran Peminatan</h3> 
+        </div> 
+        <form onsubmit="return kirimData();"> 
+            <label for="nama">Nama</label> 
+            <input type="text" placeholder="Nama anda" id="nama" name="nama"><br> 
+             
+            <label for="nim">NIM</label> 
+            <input type="text" placeholder="NIM anda" id="nim" name="nim"><br> 
+             
+            <p>Peminatan pada bidang :</p> 
+ 
+            <input type="radio" id="progaming" name="peminatan" value="progaming"> 
+            <label for="progaming">Progaming</label><br> 
+ 
+            <input type="radio" id="desain" name="peminatan" value="desain"> 
+            <label for="desain">Desain</label><br> 
+ 
+            <input type="radio" id="jaringan" name="peminatan" value="jaringan"> 
+            <label for="jaringan">Jaringan</label><br> 
+ 
+            <input type="radio" id="data" name="peminatan" value="data"> 
+            <label for="data">Data</label><br> 
+ 
+            <label for="alamat">Alamat</label> 
+            <textarea placeholder="Tulis alamatmu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br> 
+
+            <p>Pilih angkatan :</p> 
+            <select name="angkatan" id="angkatan"> 
+                <option value="2018">2018</option> 
+                <option value="2019">2019</option> 
+                <option value="2020">2020</option> 
+                <option value="2021">2021</option> 
+                <option value="2022">2022</option> 
+            </select><br><br> 
+
+            <div> 
+                <label for="tanggal">Tanggal Lahir</label> 
+                <input type="date" id="tanggal" name="tanggal"> 
+            </div><br>
+
+            <button type="submit">Kirim</button> 
+        </form> 
+    </div> 
+ 
+<script src="script.js"></script> 
+</body> 
+</html>
