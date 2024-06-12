@@ -16,7 +16,7 @@ function kirimData() {
                   "Peminatan: " + peminatan + "\n" + 
                   "Alamat: " + alamat + "\n" + 
                   "Angkatan: " + angkatan + "\n" + 
-                  "Tanggal Lahir: " + tanggal; 
+                  "Tanggal Pengisian: " + tanggal; 
 
     alert(message); 
      
